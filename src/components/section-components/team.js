@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import parse from "html-react-parser";
+// import { Link } from "react-router-dom";
+// import parse from "html-react-parser";
 
 class Team extends Component {
   render() {
@@ -33,27 +33,27 @@ class Team extends Component {
                     <img src={publicUrl + "assets/img/team/1.png"} alt="team" />
                   </div>
                   <h3 className="name">
-                    <a href="#">Amber Reid</a>
+                    <a href="/#">Amber Reid</a>
                   </h3>
                   <span>Creative Director</span>
                   <ul className="team-social">
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-instagram" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-linkedin" />
                       </a>
                     </li>
@@ -66,27 +66,27 @@ class Team extends Component {
                     <img src={publicUrl + "assets/img/team/2.png"} alt="team" />
                   </div>
                   <h3 className="name">
-                    <a href="#">Bruce Pearson</a>
+                    <a href="/#">Bruce Pearson</a>
                   </h3>
                   <span>Creative Director</span>
                   <ul className="team-social">
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-instagram" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-linkedin" />
                       </a>
                     </li>
@@ -99,27 +99,27 @@ class Team extends Component {
                     <img src={publicUrl + "assets/img/team/3.png"} alt="team" />
                   </div>
                   <h3 className="name">
-                    <a href="#">Amber Griffin</a>
+                    <a href="/#">Amber Griffin</a>
                   </h3>
                   <span>Creative Director</span>
                   <ul className="team-social">
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-instagram" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-linkedin" />
                       </a>
                     </li>
@@ -132,27 +132,27 @@ class Team extends Component {
                     <img src={publicUrl + "assets/img/team/4.png"} alt="team" />
                   </div>
                   <h3 className="name">
-                    <a href="#">Abedin Abed</a>
+                    <a href="/#">Abedin Abed</a>
                   </h3>
                   <span>Creative Director</span>
                   <ul className="team-social">
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-instagram" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="fa fa-linkedin" />
                       </a>
                     </li>

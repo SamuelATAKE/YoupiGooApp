@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import parse from 'html-react-parser';
+// import parse from 'html-react-parser';
 
 class IntroV2 extends Component {
 

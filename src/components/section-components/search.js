@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import parse from "html-react-parser";
+// import parse from "html-react-parser";
 
 class Searach extends Component {
   render() {
     let publicUrl = process.env.PUBLIC_URL + "/";
-    let imagealt = "image";
+    // let imagealt = "image";
 
     return (
       <div className="search-area tp-main-search-area viaje-go-top">
@@ -62,7 +62,7 @@ class Searach extends Component {
                     />
                     <img
                       src={publicUrl + "assets/img/icons/2.png"}
-                      alt="icons"
+                      alt="icons1"
                     />
                   </div>
                 </div>

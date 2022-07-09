@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import parse from 'html-react-parser';
 
 class Intro extends Component {
 
     render() {
 
-        let publicUrl = process.env.PUBLIC_URL+'/'
+        // let publicUrl = process.env.PUBLIC_URL+'/'
 
     return  <div className="intro-area pd-top-112">
 				  <div className="container">

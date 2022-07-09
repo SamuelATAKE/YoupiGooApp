@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import parse from "html-react-parser";
+// import parse from "html-react-parser";
 
 class TourListV2 extends Component {
   render() {
     let publicUrl = process.env.PUBLIC_URL + "/";
-    let imagealt = "image";
+    // let imagealt = "image";
 
     return (
       <div className="tour-list-area pd-top-120 viaje-go-top">
@@ -262,9 +262,9 @@ class TourListV2 extends Component {
                 <div className="tp-pagination text-md-center text-left d-inline-block mt-4">
                   <ul>
                     <li>
-                      <a className="prev page-numbers" href="#">
+                      <Link className="prev page-numbers" href="/#">
                         <i className="la la-long-arrow-left" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <span className="page-numbers">1</span>
@@ -273,19 +273,19 @@ class TourListV2 extends Component {
                       <span className="page-numbers current">2</span>
                     </li>
                     <li>
-                      <a className="page-numbers" href="#">
+                      <Link className="page-numbers" href="/#">
                         3
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="page-numbers" href="#">
+                      <Link className="page-numbers" href="/#">
                         4
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="next page-numbers" href="#">
+                      <Link className="next page-numbers" href="/#">
                         <i className="la la-long-arrow-right" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -355,12 +355,12 @@ class TourListV2 extends Component {
                   </div>
                 </div>
                 <div className="widget_ads">
-                  <a href="#">
+                  <Link href="/#">
                     <img
                       src={publicUrl + "assets/img/others/01.png"}
                       alt="img"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

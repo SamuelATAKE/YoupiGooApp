@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import parse from 'html-react-parser';
 
 class UpcomingTour extends Component {
 
@@ -20,7 +20,7 @@ class UpcomingTour extends Component {
 		          <div className="col-lg-8">
 		            <form className="search-form">
 		              <div className="form-group">
-		                <input type="text" placeholder="Search" />
+		                <input type="text" placeholder="Rechercher..." />
 		              </div>
 		              <button className="submit-btn" type="submit"><i className="ti-search" /></button>
 		            </form>

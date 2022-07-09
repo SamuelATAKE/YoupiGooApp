@@ -15,7 +15,7 @@ class Footer_v2 extends Component {
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
-        let imgattr = "Footer logo"
+        // let imgattr = "Footer logo"
 
         return (
   				<footer className="footer-area style-two">
@@ -81,19 +81,19 @@ class Footer_v2 extends Component {
 				      <div className="row">
 				        <div className="col-lg-8 col-md-9">
 				          <div className="copyright-text text-left">
-				            © Travel point 2019 All rights reserved. Powered with by <a href="https://codingeek.net/" target="_blank"><i className="fa fa-heart" /><span>Codingeek.</span></a>
+				            © Travel point 2019 All rights reserved. Powered with by <a href="https://codingeek.net/" target="_blank" rel="noopener noreferrer"><i className="fa fa-heart" /><span>Codingeek.</span></a>
 				          </div>
 				        </div>
 				        <div className="col-lg-4 col-md-3">
 				          <ul className="social-icon float-lg-right">
 				            <li>
-				              <a className="facebook" href="https://www.facebook.com/codingeek.net/" target="_blank"><i className="fa fa-facebook  " /></a>
+				              <a className="facebook" href="https://www.facebook.com/codingeek.net/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook  " /></a>
 				            </li>
 				            <li>
-				              <a className="twitter" href="https://twitter.com/codingeeknet" target="_blank"><i className="fa fa-twitter  " /></a>
+				              <a className="twitter" href="https://twitter.com/codingeeknet" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter  " /></a>
 				            </li>
 				            <li>
-				              <a className="pinterest" href="https://www.instagram.com/codingeeknet/" target="_blank"><i className="fa fa-instagram" /></a>
+				              <a className="pinterest" href="https://www.instagram.com/codingeeknet/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram" /></a>
 				            </li>
 				          </ul>
 				        </div>

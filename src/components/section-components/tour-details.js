@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import parse from "html-react-parser";
+// import { Link } from "react-router-dom";
+// import parse from "html-react-parser";
 
 class TourDetails extends Component {
   render() {
     let publicUrl = process.env.PUBLIC_URL + "/";
-    let imagealt = "image";
+    // let imagealt = "image";
 
     return (
       <div className="tour-details-area mg-top--70">
@@ -20,7 +20,7 @@ class TourDetails extends Component {
                     <div className="thumbnails">
                       <img
                         src={publicUrl + "assets/img/tour-details/1.png"}
-                        alt="image"
+                        alt="image7"
                       />
                       <div className="video-popup-btn">
                         <a
@@ -37,10 +37,10 @@ class TourDetails extends Component {
                 {/* gallery-item */}
                 <div className="tp-gallery-item col-md-3 col-sm-6">
                   <div className="tp-gallery-item-img">
-                    <a href="#" data-effect="mfp-zoom-in">
+                    <a href="/#" data-effect="mfp-zoom-in">
                       <img
                         src={publicUrl + "assets/img/tour-details/2.png"}
-                        alt="image"
+                        alt="image2"
                       />
                     </a>
                   </div>
@@ -48,10 +48,10 @@ class TourDetails extends Component {
                 {/* gallery-item */}
                 <div className="tp-gallery-item col-lg-2 col-md-4 col-sm-6">
                   <div className="tp-gallery-item-img">
-                    <a href="#" data-effect="mfp-zoom-in">
+                    <a href="/#" data-effect="mfp-zoom-in">
                       <img
                         src={publicUrl + "assets/img/tour-details/3.png"}
-                        alt="image"
+                        alt="image3"
                       />
                     </a>
                   </div>
@@ -59,10 +59,10 @@ class TourDetails extends Component {
                 {/* gallery-item */}
                 <div className="tp-gallery-item col-lg-2 col-md-4 col-sm-6">
                   <div className="tp-gallery-item-img">
-                    <a href="#" data-effect="mfp-zoom-in">
+                    <a href="/#" data-effect="mfp-zoom-in">
                       <img
                         src={publicUrl + "assets/img/tour-details/4.png"}
-                        alt="image"
+                        alt="image4"
                       />
                     </a>
                   </div>
@@ -70,10 +70,10 @@ class TourDetails extends Component {
                 {/* gallery-item */}
                 <div className="tp-gallery-item col-lg-2 col-md-4 col-sm-6">
                   <div className="tp-gallery-item-img">
-                    <a href="#" data-effect="mfp-zoom-in">
+                    <a href="/#" data-effect="mfp-zoom-in">
                       <img
                         src={publicUrl + "assets/img/tour-details/5.png"}
-                        alt="image"
+                        alt="image5"
                       />
                     </a>
                   </div>
@@ -81,10 +81,10 @@ class TourDetails extends Component {
                 {/* gallery-item */}
                 <div className="tp-gallery-item col-lg-2 col-md-4 col-sm-6">
                   <div className="tp-gallery-item-img">
-                    <a href="#" data-effect="mfp-zoom-in">
+                    <a href="/#" data-effect="mfp-zoom-in">
                       <img
                         src={publicUrl + "assets/img/tour-details/6.png"}
-                        alt="image"
+                        alt="image6"
                       />
                     </a>
                   </div>
@@ -108,10 +108,10 @@ class TourDetails extends Component {
                       <span>4.0</span>
                     </div>
                     <div className="all-tags">
-                      <a href="#">Adventures</a>
-                      <a href="#">Local special ties</a>
-                      <a href="#">Natural</a>
-                      <a href="#">Travel</a>
+                      <a href="/#">Adventures</a>
+                      <a href="/#">Local special ties</a>
+                      <a href="/#">Natural</a>
+                      <a href="/#">Travel</a>
                     </div>
                   </div>
                 </div>
@@ -267,7 +267,7 @@ class TourDetails extends Component {
                             get to know each other over a hyper-local
                             “nose-to-tail” dinner. Voir plus
                           </p>
-                          <a className="btn-read-more" href="#">
+                          <a className="btn-read-more" href="/#">
                             <span>
                               Voir plus
                               <i className="la la-arrow-right" />
@@ -297,7 +297,7 @@ class TourDetails extends Component {
                             get to know each other over a hyper-local
                             “nose-to-tail” dinner. Voir plus
                           </p>
-                          <a className="btn-read-more" href="#">
+                          <a className="btn-read-more" href="/#">
                             <span>
                               Voir plus
                               <i className="la la-arrow-right" />
@@ -325,7 +325,7 @@ class TourDetails extends Component {
                             get to know each other over a hyper-local
                             “nose-to-tail” dinner. Voir plus
                           </p>
-                          <a className="btn-read-more" href="#">
+                          <a className="btn-read-more" href="/#">
                             <span>
                               Voir plus
                               <i className="la la-arrow-right" />
@@ -360,7 +360,7 @@ class TourDetails extends Component {
                       barrens cutting heather to dye wool or hanging off the
                       edge
                     </p>
-                    <a className="btn btn-yellow" href="#">
+                    <a className="btn btn-yellow" href="/#">
                       Contacter l'administrateur
                     </a>
                   </div>
@@ -370,7 +370,10 @@ class TourDetails extends Component {
                     Localisation du service
                   </h4>
                   <div className="service-location-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d649788.5753409272!2d-0.5724199684037448!3d52.92186340524542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d94c3b82ab%3A0x62077a554c8e9a8e!2sPetty%20France%2C%20Westminster%2C%20London%2C%20UK!5e0!3m2!1sen!2sbd!4v1572346566908!5m2!1sen!2sbd" />
+                    <iframe
+                      title="iframetd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d649788.5753409272!2d-0.5724199684037448!3d52.92186340524542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d94c3b82ab%3A0x62077a554c8e9a8e!2sPetty%20France%2C%20Westminster%2C%20London%2C%20UK!5e0!3m2!1sen!2sbd!4v1572346566908!5m2!1sen!2sbd"
+                    />
                   </div>
                 </div>
                 <div className="comments-area tour-details-review-area">
@@ -430,7 +433,7 @@ class TourDetails extends Component {
                     </li>
                   </ul>
                   <div className="btn-wrapper text-right mt-3">
-                    <a className="btn-read-more" href="#">
+                    <a className="btn-read-more" href="/#">
                       <span>
                         Plus de commentaires
                         <i className="la la-arrow-right" />
@@ -479,7 +482,7 @@ class TourDetails extends Component {
                         </label>
                       </div>
                       <div className="col-12">
-                        <a className="btn btn-yellow" href="#">
+                        <a className="btn btn-yellow" href="/#">
                           Envoyer
                         </a>
                       </div>
@@ -540,7 +543,7 @@ class TourDetails extends Component {
                       />
                     </div>
                     <div className="text-lg-center text-left">
-                      <a className="btn btn-yellow" href="#">
+                      <a className="btn btn-yellow" href="/#">
                         Réserver
                         <i className="fa fa-paper-plane" />
                       </a>
@@ -548,7 +551,7 @@ class TourDetails extends Component {
                   </div>
                 </div>
                 <div className="widget_ads">
-                  <a href="#">
+                  <a href="/#">
                     <img
                       className="w-100"
                       src={publicUrl + "assets/img/others/01.png"}

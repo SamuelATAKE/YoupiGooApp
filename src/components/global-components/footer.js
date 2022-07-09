@@ -13,7 +13,7 @@ class Footer_v1 extends Component {
 
   render() {
     let publicUrl = process.env.PUBLIC_URL + "/";
-    let imgattr = "Footer logo";
+    // let imgattr = "Footer logo";
 
     return (
       <footer
@@ -42,6 +42,7 @@ class Footer_v1 extends Component {
                         className="facebook"
                         href="https://www.facebook.com/codingeek.net/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="fa fa-facebook  " />
                       </a>
@@ -51,6 +52,7 @@ class Footer_v1 extends Component {
                         className="twitter"
                         href="https://twitter.com/codingeeknet"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="fa fa-twitter  " />
                       </a>
@@ -60,6 +62,7 @@ class Footer_v1 extends Component {
                         className="pinterest"
                         href="https://www.instagram.com/codingeeknet/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="fa fa-instagram" />
                       </a>
@@ -119,50 +122,50 @@ class Footer_v1 extends Component {
                 <h4 className="widget-title">Galerie Instagram</h4>
                 <ul className="widget-instagram-feed">
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <img
                         src={publicUrl + "assets/img/instagram/1.png"}
-                        alt="img"
+                        alt="img1"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <img
                         src={publicUrl + "assets/img/instagram/2.png"}
-                        alt="img"
+                        alt="img2"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <img
                         src={publicUrl + "assets/img/instagram/3.png"}
-                        alt="img"
+                        alt="img3"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <img
                         src={publicUrl + "assets/img/instagram/4.png"}
-                        alt="img"
+                        alt="img4"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <img
                         src={publicUrl + "assets/img/instagram/5.png"}
-                        alt="img"
+                        alt="img5"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <img
                         src={publicUrl + "assets/img/instagram/6.png"}
-                        alt="img"
+                        alt="img6"
                       />
                     </a>
                   </li>
@@ -174,7 +177,11 @@ class Footer_v1 extends Component {
         <div className="copyright-inner">
           <div className="copyright-text">
             © Youpigoo 2022 Tous droits réservés. Développé par{" "}
-            <a href="https://e-media.io/" target="_blank">
+            <a
+              href="https://e-media.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fa fa-heart" />
               <span>E-Media.</span>
             </a>

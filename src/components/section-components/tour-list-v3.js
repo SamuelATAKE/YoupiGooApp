@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import parse from 'html-react-parser';
 
 class TourListV3 extends Component {
 
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
-        let imagealt = 'image'
+        // let imagealt = 'image'
 
     return	<div className="tour-list-area pd-top-120 viaje-go-top">
               <div className="container">
@@ -180,12 +180,12 @@ class TourListV3 extends Component {
                       <div className="col-lg-12 text-center">
                         <div className="tp-pagination text-center d-inline-block mt-4">
                           <ul>
-                            <li><a className="prev page-numbers" href="#"><i className="la la-long-arrow-left" /></a></li>
+                            <li><Link className="prev page-numbers" href="/#"><i className="la la-long-arrow-left" /></Link></li>
                             <li><span className="page-numbers">1</span></li>
                             <li><span className="page-numbers current">2</span></li>
-                            <li><a className="page-numbers" href="#">3</a></li>
-                            <li><a className="page-numbers" href="#">4</a></li>
-                            <li><a className="next page-numbers" href="#"><i className="la la-long-arrow-right" /></a></li>
+                            <li><Link className="page-numbers" href="/#">3</Link></li>
+                            <li><Link className="page-numbers" href="/#">4</Link></li>
+                            <li><Link className="next page-numbers" href="/#"><i className="la la-long-arrow-right" /></Link></li>
                           </ul>                          
                         </div>
                       </div>
@@ -235,7 +235,7 @@ class TourListV3 extends Component {
                         </div>
                       </div>
                       <div className="widget_ads">
-                        <a href="#"><img src={publicUrl+"assets/img/others/01.png"} alt="img" /></a>
+                        <Link href="/#"><img src={publicUrl+"assets/img/others/01.png"} alt="img" /></Link>
                       </div>
                     </div>
                   </div>

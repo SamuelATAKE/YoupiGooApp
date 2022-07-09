@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() {
     let publicUrl = process.env.PUBLIC_URL + "/";
     let imgattr = "logo";
-    let anchor = "#";
+    // let anchor = "#";
     return (
       <nav className="navbar navbar-area navbar-expand-lg nav-style-01 viaje-go-top">
         <div className="container nav-container">
@@ -53,7 +53,7 @@ class Navbar extends Component {
                   <i className="ti-search" />
                 </li>
                 <li className="notification">
-                  <a className="signUp-btn" href="#">
+                  <a className="signUp-btn" href="/#">
                     <i className="fa fa-user-o" />
                   </a>
                 </li>
@@ -80,7 +80,7 @@ class Navbar extends Component {
                 <Link to="/about">A propos</Link>
               </li>
               <li className="menu-item-has-children">
-                <a href="#">Reservations</a>
+                <a href="/#">Reservations</a>
                 <ul className="sub-menu">
                   <li>
                     <Link to="/tour-list">Séjour Hôtel</Link>
